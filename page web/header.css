@@ -1,0 +1,39 @@
+h1 {
+    color: rgb(19, 43, 75);
+    font-size:200%;
+    font-style:oblique;
+
+    background-image:url("../image/imagehead6.jpg");
+    background-repeat:no-repeat ;
+    background-size:120%;
+    padding: 7%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0 ;
+}  
+
+.sticky {
+    text-align: center;
+    position:-webkit-sticky;
+    position: sticky;
+    top:0;
+
+    background:white;
+}
+
+a{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+
+a.active {
+    background-color: grey;
+}
+
